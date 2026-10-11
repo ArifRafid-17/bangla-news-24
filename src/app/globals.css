@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@import "@heroui/styles";
+
+@theme {
+  --font-sans: var(--font-noto-serif-bengali), serif;
+  --font-serif: var(--font-noto-serif-bengali), serif;
+}
+
+body {
+  font-family: var(--font-noto-serif-bengali), serif;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+/* Hide scrollbar for Chrome, Safari, Edge, Firefox */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+} 
